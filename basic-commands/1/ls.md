@@ -1,6 +1,6 @@
 ### ls
 
-	Displays a list of files in the current working directory, like the dir command in DOS
+Displays a list of files in the current working directory, like the dir command in DOS
 
 - -l long format, displaying Unix file types, permissions, number of hard links, owner, group, size, last-modified date and filename
 - -a lists all files in the given directory, including those whose names start with "." (which are hidden files in Unix). By default, these files are excluded from the list.
@@ -19,10 +19,10 @@ drwxrwxr-x 4 smh smh 4096 Sep 28 19:51 ..
 ```
 
 Here is the information about all the listed columns:
-1. First Column: represents file type and permission given on the file. Below is the description of all type of files.
-2. Second Column: represents the number of memory blocks taken by the file or directory.
-3. Third Column: represents owner of the file. This is the Unix user who created this file.
-4. Fourth Column: represents group of the owner. Every Unix user would have an associated group.
-5. Fifth Column: represents file size in bytes.
-6. Sixth Column: represents date and time when this file was created or modified last time.
-7. Seventh Column: represents file or directory name.
+1. First Column: file type and permission given on the file. Below is the description of all type of files.
+2. Second Column: the number of memory blocks taken by the file or directory.
+3. Third Column: owner of the file. This is the Unix user who created this file.
+4. Fourth Column: group of the owner. Every Unix user would have an associated group.
+5. Fifth Column: file size in bytes.
+6. Sixth Column: date and time when this file was created or modified last time.
+7. Seventh Column: file or directory name.

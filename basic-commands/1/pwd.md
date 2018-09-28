@@ -1,6 +1,6 @@
 ### pwd
 
-	Displays absolute pathname of current directory.
+Displays absolute pathname of current directory.
 
 ```
 smh@smh-Vostro1510:~/public/git/linux$ pwd
