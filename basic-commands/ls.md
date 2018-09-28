@@ -1,7 +1,7 @@
 ### ls
-<p>
+
 	Displays a list of files in the current working directory, like the dir command in DOS
-</p>
+
 - -l long format, displaying Unix file types, permissions, number of hard links, owner, group, size, last-modified date and filename
 - -a lists all files in the given directory, including those whose names start with "." (which are hidden files in Unix). By default, these files are excluded from the list.
 - -R recursively lists subdirectories. The command ls -R / would therefore list all files.
