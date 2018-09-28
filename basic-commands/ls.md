@@ -1,19 +1,28 @@
 ### ls
-
+<p>
 	Displays a list of files in the current working directory, like the dir command in DOS
-
+</p>
 - -l long format, displaying Unix file types, permissions, number of hard links, owner, group, size, last-modified date and filename
 - -a lists all files in the given directory, including those whose names start with "." (which are hidden files in Unix). By default, these files are excluded from the list.
 - -R recursively lists subdirectories. The command ls -R / would therefore list all files.
 - -h ls With combination of -lh option, shows sizes in human readable format.
 
 ```
-smh@smh-Vostro1510:~/public/git/linux$ ls -alh
-total 20K
-drwxrwxr-x 3 smh smh 4.0K سپتام 28 18:51 .
-drwxrwxr-x 3 smh smh 4.0K سپتام 24 19:53 ..
-drwxrwxr-x 8 smh smh 4.0K سپتام 24 20:10 .git
--rw-rw-r-- 1 smh smh  739 سپتام 28 18:59 Lab-Basic Command (1)
--rw-rw-r-- 1 smh smh  383 سپتام 28 18:52 README.md
+smh@smh-Vostro1510:~/public/git/linux-tutorial/basic-commands$ ls -al
+total 16
+drwxrwxr-x 2 smh smh 4096 Sep 28 19:55 .
+drwxrwxr-x 4 smh smh 4096 Sep 28 19:51 ..
+-rw-rw-r-- 1 smh smh 1557 Sep 28 20:20 ls.md
+-rw-rw-r-- 1 smh smh  138 Sep 28 19:52 pwd.md
+
 
 ```
+
+Here is the information about all the listed columns:
+1. First Column: represents file type and permission given on the file. Below is the description of all type of files.
+2. Second Column: represents the number of memory blocks taken by the file or directory.
+3. Third Column: represents owner of the file. This is the Unix user who created this file.
+4. Fourth Column: represents group of the owner. Every Unix user would have an associated group.
+5. Fifth Column: represents file size in bytes.
+6. Sixth Column: represents date and time when this file was created or modified last time.
+7. Seventh Column: represents file or directory name.
