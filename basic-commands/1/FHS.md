@@ -7,7 +7,8 @@ The Filesystem Hierarchy Standard (FHS) defines the directory structure and dire
 Primary hierarchy root and root directory of the entire file system hierarchy.
 
 /bin
-Essential command binaries that need to be available in single user mode; for all users, e.g., cat, ls, cp.
+Essential command binaries that need to be available in single user mode;
+for all users, e.g., cat, ls, cp.
 
 /boot
 Boot loader files, e.g., kernels, initrd.
@@ -41,7 +42,8 @@ Virtual filesystem providing process and kernel information as files.
 Home directory for the root user.
 
 /run
-Run-time variable data: Information about the running system since last boot, e.g., currently logged-in users and running daemons.
+Run-time variable data: Information about the running system since last boot,
+e.g., currently logged-in users and running daemons.
 
 /sys
 Contains information about devices, drivers, and some kernel features.
@@ -53,6 +55,7 @@ Temporary files
 Secondary hierarchy for read-only user data; contains the majority of (multi-)user utilities and applications.
 
 /var
-Variable files—files whose content is expected to continually change during normal operation of the system—such as logs, spool files, and temporary e-mail files.
+Variable files—files whose content is expected to continually change during normal operation of the system.
+such as logs, spool files, and temporary e-mail files.
 
 ```
