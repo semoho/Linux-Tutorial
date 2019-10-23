@@ -2,6 +2,7 @@
 
 The Filesystem Hierarchy Standard (FHS) defines the directory structure and directory contents in Linux distributions. It is maintained by the Linux Foundation, and the last release of this standard belongs to 2015.
 
+![FHS Release Dates Chart](https://github.com/AlirezaAZ/Linux-Tutorial/blob/master/basic-commands/1/chart.png)
 
 ### /
 Primary hierarchy root and root directory of the entire file system hierarchy.
