@@ -1,7 +1,7 @@
 # Commands  : Series 2
 
 <div dir="rtl" markdown="1">
-خلاهصه دستور های جلسه سوم :
+خلاصه دستور های جلسه سوم :
 <div dir="ltr" markdown="1">
 
 * **cat**
@@ -19,8 +19,6 @@
 * **redirect or (>>, >)**
 
 * **pipline or ( | )**
-
-* **passwd**
 
 <div dir="rtl" markdown="1">
   توضیح دستورات به همره مثال :
