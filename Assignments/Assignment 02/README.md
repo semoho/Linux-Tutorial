@@ -260,4 +260,22 @@ total 0
 
 ```linux
 --- <Command> | <Command> | ... ---
+>ls -R | grep download
+download-box.sh
+cloud-download-alt.svg
+download.svg
+file-download.svg
+download.md
+download.md
+download.svg
+download_graphs.html.twig
+download-box.sh
+cloud-download-alt.svg
+download.svg
+file-download.svg
+download.md
+download.md
+download.svg
+download_graphs.html.twig
+download_graphs.html.twig
 ```
