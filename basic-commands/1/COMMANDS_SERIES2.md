@@ -178,7 +178,7 @@ passwd: password updated successfully
 
 ```
 
-####Diffrence between shadow and passwd Files:
+#### Diffrence between shadow and passwd Files:
 
 ***passwd*** is the file where the user information (like username, user ID, group ID, location of home directory, login shell, ...) is stored when a new user is created.
 
