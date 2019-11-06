@@ -73,7 +73,10 @@ This is second file
 
 ## more
 
-view the text files in the command prompt, displaying one screen at a time in case the file is large (For example log files). The more command also allows the user do scroll up and down through the page.
+In order to navigate through the file line by line press Enter key or press Spacebar key to navigate one page at a time, the page being your current terminal screen size. To exit the command just press q key.
+
+A useful option of more command is the -number switch which allows you to set the number of line a page should contain.
+Also, you can display a page starting from a specific line number using the +number
 
 ```
 
@@ -120,7 +123,9 @@ Videos
 
 ## less
 
- read contents of text file one page(one screen) per time. It has faster access because if file is large, it don’t access complete file, but access it page by page.
+less command allows you to view the contents of a file and navigate through file. **The main difference between more and less is that less command is faster because it does not load the entire file at once and allows navigation though file using page up/down keys.**
+
+In can be used as a standalone command issued against a file or used with pipes with a multitude of Linux commands in order to narrow their screen output allowing you to scroll through results.
 
 
 ```
@@ -172,6 +177,61 @@ Retype new password:
 passwd: password updated successfully
 
 ```
+
+####Diffrence between shadow and passwd Files:
+
+***passwd*** is the file where the user information (like username, user ID, group ID, location of home directory, login shell, ...) is stored when a new user is created.
+
+  * Field 1: Username
+    * This contains the user’s login id. This is the username which is used for login.
+    * Username uniquely identifies a user on a Linux system. We can’t have multiple users with same username.
+  * Field 2 : Password
+    * This field contains the encrypted password for the user.
+    * Value ‘x’ in this field indicates that the user password is stored in the /etc/shadow file.
+
+  * Field 3 : User-Id
+    * User-Id represents a unique number which is used by the Linux to identify the user.
+    * There is one to one mapping between the Username and User-Id.
+    * Every user must be assigned with a unique UID in a Linux system. This applies to all UIDs but ’0′.
+    * The superuser ‘root’ is assigned with a special UID ’0′. Any user having UID ’0′ has root privileges.
+
+  * Field 4 : Group-Id
+    * Group-Id represents a unique number identifying the primary group id for the user.
+    * Linux maintains the group name and group id mapping in a separate world readable file /etc/group. Following is the entry for GID ’502′ in the group file.
+
+  * Field 5 : User Information
+    * This field is used to store the general information about the user, like, user’s full name, contact information etc.
+    * This field can be left blank.
+
+  * Field 6 : User’s Home Directory
+    * This field contains the location of user’s home directory.
+    * User’s home directory contains all user specific configuration files.
+    * A user is provided full access to it’s home directory. Which means that the user is free to add, modify and delete any file or folder in its home directory.
+  * Field 7 : User’s Shell
+    * Shell is the first program that a user encounters after logging into a Linux system. Linux comes with several shells.
+
+***shadow*** is the file where important information (like an encrypted form of the password of a user, the day the password expires, whether or not the passwd has to be changed, the minimum and maximum time between password changes, ...) is stored when a new user is created.
+
+Each line in the /etc/shadow file corresponds to a user account. Each entry is divided in to 9 fields with the help of a delimiter ‘:’.
+
+  * Field 1:
+    * contains the username.
+  * Field 2:
+    * contains the hashed password of the user.
+  * Field 3:
+    * represents the number of days since the epoch when the * password was changed.
+  * Field 4:
+    * represents the minimum number of days that must pass since the last password change date before the password can be changed again.
+  * Field 5:
+    * represents the maximum number of days after the last password change date when the password must be changed again.
+  * Field 6:
+    * represents the number of days before the accounting expiry date to issue password change warning.
+  * Field 7:
+    * represents the number of days after password expiry when the account will be locked
+  * Field 8:
+    * represents the password expiry date in the form of number of days since epoch.
+  * Field 9:
+    * is reserved for future use
 
 ## redirect or (>>, >)
 
