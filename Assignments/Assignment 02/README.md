@@ -19,7 +19,7 @@
 - '|'
 
 
-### more: 
+## more: 
 <div dir="rtl" markdown="1">
 از این دستور برای خواندن اطلاعات فایل های متنی استفاده میشود ولی نمی توان اسکرول کرد
 <div dir="ltr" markdown="1">
@@ -53,7 +53,7 @@ ces augue ut auctor. Pellentesque molestie fermentum venenatis. Donec mi ligula,
 --More--(52%)
 ```
 
-### '>': 
+## '>': 
 <div dir="rtl" markdown="1">
 این دستور محتوای خروجی دستور قبل را در فایلی که جلوی این دستور معرفی شده ثبت میکند اگر فایل موجود نباشد ان فایل را میسازد ولی اگر فایل موجود باشد تمام محتوای قبلی ان را حذف میکند
 <div dir="ltr" markdown="1">
@@ -62,7 +62,7 @@ ces augue ut auctor. Pellentesque molestie fermentum venenatis. Donec mi ligula,
 --- <Command> > <File> ---
 ```
 
-### '>>': 
+## '>>': 
 <div dir="rtl" markdown="1">
 این دستور محتوای خروجی دستور قبل را در فایلی که جلوی این دستور معرفی شده ثبت میکند اگر فایل موجود نباشد ان فایل را میسازد اگر فایل موجود باشد خروجی دستور به انتهای محتوای فایل اضافه می شود
 <div dir="ltr" markdown="1">
@@ -72,7 +72,7 @@ ces augue ut auctor. Pellentesque molestie fermentum venenatis. Donec mi ligula,
 ```
 
 
-### less: 
+## less: 
 <div dir="rtl" markdown="1">
 از این دستور برای نمایش محتوای فایل ها استفاده میشود. تفاوت آن با دستور more در این است که دستور more قابلیت اسکرول کردن به سمت بالا را ندارد ولی less این قابلیت را دارد. همچنین در less لازم نیست همانند more تمام فایل خوانده و نمایش داده شود. بلکه بخشی از فایل لود و نمایش داده می شود.
 <div dir="ltr" markdown="1">
@@ -89,7 +89,7 @@ Loremipsum.txt
 ```
 
 
-### cat: 
+## cat: 
 <div dir="rtl" markdown="1">
 محتوای فایل را گرفته و در ترمینال چاپ می کند.
 <div dir="ltr" markdown="1">
@@ -99,7 +99,7 @@ Loremipsum.txt
 >cat Loremipsum.txt 
 ```
 
-### cat >: 
+## cat >: 
 <div dir="rtl" markdown="1">
 بعد از زدن این دستور در ترمینال، میتوان تمام متن های نوشته شده در ترمینال را، در فایل ذخیره کرد.
 <div dir="ltr" markdown="1">
@@ -114,7 +114,7 @@ bye
 ```
 
 
-### echo: 
+## echo: 
 <div dir="rtl" markdown="1">
 هر متنی که به آن بدهیم را در ترمینال چاپ می کند.
 <div dir="ltr" markdown="1">
@@ -125,7 +125,7 @@ bye
 hi
 ```
 
-### echo >: 
+## echo >: 
 <div dir="rtl" markdown="1">
 متن داده شده را به جای نمایش در ترمینال در فایل میریزد.
 <div dir="ltr" markdown="1">
@@ -138,7 +138,7 @@ hi
 ```
 
 
-### grep: 
+## grep: 
 <div dir="rtl" markdown="1">
 با استفاده از این دستور می توان متنی را در فایل ها سرچ کرد. خروجی دستور شامل تمام خطوطی است که شامل متن ورودی دستور است می باشد.
 <div dir="ltr" markdown="1">
@@ -154,7 +154,7 @@ svs'd'v'd'fvf
 ```
 
 
-### clear: 
+## clear: 
 <div dir="rtl" markdown="1">
 صفحه ترمینال را پاک میکند.
 <div dir="ltr" markdown="1">
@@ -165,7 +165,7 @@ svs'd'v'd'fvf
 ```
 
 
-### id: 
+## id: 
 <div dir="rtl" markdown="1">
 اطلاعات یوزر فعلی (تاثیر گذار) را نمایش میدهد.
 <div dir="ltr" markdown="1">
@@ -177,7 +177,7 @@ uid=1000(amir) gid=1000(amir) groups=1000(amir),4(adm),24(cdrom),27(sudo),30(dip
 ```
 
 
-### su: 
+## su: 
 <div dir="rtl" markdown="1">
 از این دستور برای جا به جا شدن بین یوزرهای مختلف سیستم استفاده می شود. پس از وارد کردن اسم یوزر جلوی این دستور از کاربر درخواست رمز میکند و پس از وارد کردن آن، وارد یوزر میشویم. اگر جلوی دستور اسم یوزری نوشته نشود وارد یوزر روت میشویم
 
@@ -193,7 +193,7 @@ Password:
 ```
 
 
-### exit: 
+## exit: 
 <div dir="rtl" markdown="1">
 خروج از اخرین یوزر وارد شده
 <div dir="ltr" markdown="1">
@@ -206,7 +206,7 @@ exit
 ```
 
 
-### ls -lR (l: Long Listing, R: recursive): 
+## ls -lR (l: Long Listing, R: recursive): 
 <div dir="rtl" markdown="1">
 این دستور تمامی دایرکتوری ها و فایل های موجود در آنها رو با تمام اطلاعات نشان میدهد
 <div dir="ltr" markdown="1">
@@ -253,7 +253,7 @@ total 0
 ```
 
 
-### '|': 
+## '|': 
 <div dir="rtl" markdown="1">
 از این علامت برای ترکیب دستورات استفاده میشه به اینصورت که خروجی دستور قبل از خود را به عنوان ورودی دستور بعد از خود در نظر می گیرد
 <div dir="ltr" markdown="1">

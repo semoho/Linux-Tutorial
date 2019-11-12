@@ -312,7 +312,7 @@
 - whoami
 
 
-### ls: 
+## ls: 
 <div dir="rtl" markdown="1">
 این دستور فایل ها و دایرکتوری ها را بدون هیچ اطلاعاتی مثل حجم و تاریخ و غیره به نمایش می گذارد
 <div dir="ltr" markdown="1">
@@ -323,7 +323,7 @@ Desktop    domjudge   examples.desktop  Pictures  shared        Templates
 Documents  Downloads  Music             Public    SomeFile.txt  Videos
 ```
 
-### ls -l (l: long listing):
+## ls -l (l: long listing):
 <div dir="rtl" markdown="1">
 حجم، تاریخ و زمان آخرین ویرایش فایل یا دایرکتوری، نام فایل یا فولدر و مالک فایل و سطح دسترسی فایل را نشان می دهد  
 
@@ -355,7 +355,7 @@ drwxr-xr-x 2 amir amir    4096 Aug 29 18:39 Templates
 drwxr-xr-x 2 amir amir    4096 Aug 29 18:39 Videos
 ```
 
-### ls -a(a: all):
+## ls -a(a: all):
 <div dir="rtl" markdown="1">
 لیست تمام فایل ها شامل فایل های مخفی که با '.' شروع می شوند
 <div dir="ltr" markdown="1">
@@ -375,7 +375,7 @@ domjudge       .profile          .vboxclient-seamless.pid
 Downloads      Public            Videos
 ```
 
-### ls -alh (a: all, l: long listing, h: human readable):
+## ls -alh (a: all, l: long listing, h: human readable):
 <div dir="rtl" markdown="1">
 لیست تمام فایل ها موجود در دایرکتوری فعلی به صورتی که قابل خوندن باشد و تمام جزئیات آن را نشان دهد. 
 <div dir="ltr" markdown="1">
@@ -418,7 +418,7 @@ drwxr-xr-x  2 amir amir 4.0K Aug 29 18:39 Templates
 drwxr-xr-x  2 amir amir 4.0K Aug 29 18:39 Videos
 ```
 
-### info: 
+## info: 
 <div dir="rtl" markdown="1">
 اطلاعات جامع درباره دستور
 <div dir="ltr" markdown="1">
@@ -427,7 +427,7 @@ drwxr-xr-x  2 amir amir 4.0K Aug 29 18:39 Videos
 >info ls
 ```
 
-### pwd:
+## pwd:
 <div dir="rtl" markdown="1">
 این دستور ادرس مکانی که در انجا هستیم را به ما نشان میدهد
 <div dir="ltr" markdown="1">
@@ -437,7 +437,7 @@ drwxr-xr-x  2 amir amir 4.0K Aug 29 18:39 Videos
 /home/amir
 ```
 
-### mkdir:
+## mkdir:
 <div dir="rtl" markdown="1">
 درست کردن یک دایرکتوری با این دستور
 <div dir="ltr" markdown="1">
@@ -446,7 +446,7 @@ drwxr-xr-x  2 amir amir 4.0K Aug 29 18:39 Videos
 >mkdir folderName
 ```
 
-### rmdir:
+## rmdir:
 <div dir="rtl" markdown="1">
 پاک کردن یک دایرکتوری 
 <div dir="ltr" markdown="1">
@@ -455,7 +455,7 @@ drwxr-xr-x  2 amir amir 4.0K Aug 29 18:39 Videos
 >rmdir folderName
 ```
 
-### touch:
+## touch:
 <div dir="rtl" markdown="1">
 ایجاد یک فایل
 <div dir="ltr" markdown="1">
@@ -464,7 +464,7 @@ drwxr-xr-x  2 amir amir 4.0K Aug 29 18:39 Videos
 >touch fileName
 ```
 
-### rm:
+## rm:
 <div dir="rtl" markdown="1">
 پاک کردن فایل
 <div dir="ltr" markdown="1">
@@ -473,7 +473,7 @@ drwxr-xr-x  2 amir amir 4.0K Aug 29 18:39 Videos
 >rm filename
 ```
 
-### rm -f (f: force):
+## rm -f (f: force):
 <div dir="rtl" markdown="1">
 پاک کردن فایل بدون سوال (با زور و اجبار)
 <div dir="ltr" markdown="1">
@@ -482,7 +482,7 @@ drwxr-xr-x  2 amir amir 4.0K Aug 29 18:39 Videos
 >rm -f fileName
 ```
 
-### rm -r (r: recursive): 
+## rm -r (r: recursive): 
 <div dir="rtl" markdown="1">
 پاک کردن به صورت بازگشتی
 <div dir="ltr" markdown="1">
@@ -491,7 +491,7 @@ drwxr-xr-x  2 amir amir 4.0K Aug 29 18:39 Videos
 >rm -r foldername
 ```
 
-### mv:
+## mv:
 <div dir="rtl" markdown="1">
 انتقال فایل، به کمک این دستور میتوان نام فایل ها را نیز تغییر داد
 <div dir="ltr" markdown="1">
@@ -500,7 +500,7 @@ drwxr-xr-x  2 amir amir 4.0K Aug 29 18:39 Videos
 >mv SomeFile.txt destDiractory
 ```
 
-### cd:
+## cd:
 <div dir="rtl" markdown="1">
 تغییر مسیر دادن در داخل پوشه ها 
 <div dir="ltr" markdown="1">
@@ -509,7 +509,7 @@ drwxr-xr-x  2 amir amir 4.0K Aug 29 18:39 Videos
 >cd ..
 ```
 
-### cp:
+## cp:
 <div dir="rtl" markdown="1">
 کپی کردن فایل و پوشه
 <div dir="ltr" markdown="1">
@@ -518,7 +518,7 @@ drwxr-xr-x  2 amir amir 4.0K Aug 29 18:39 Videos
 >cp SomeFile.txt destDiractory
 ```
 
-### cp -r (r: recursive):
+## cp -r (r: recursive):
 <div dir="rtl" markdown="1">
 کپی کردن پوشه به صورت بازگشتی
 <div dir="ltr" markdown="1">
@@ -527,7 +527,7 @@ drwxr-xr-x  2 amir amir 4.0K Aug 29 18:39 Videos
 >cp -r sourceDiractory destDiractory
 ```
 
-### stat:
+## stat:
 <div dir="rtl" markdown="1">
 نمایش اطلاعات کامل فایل یا دایرکتوری
 <div dir="ltr" markdown="1">
@@ -544,7 +544,7 @@ Change: 2019-10-15 14:30:07.437962585 +0330
  Birth: -
 ```
 
-### whoami:
+## whoami:
 <div dir="rtl" markdown="1">
 نمایش یوزر فعلی
 <div dir="ltr" markdown="1">
