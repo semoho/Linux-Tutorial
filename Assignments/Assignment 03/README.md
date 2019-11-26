@@ -1,7 +1,7 @@
 # Commands
 
 <div dir="rtl" markdown="1">
-دستورات درون ترمینال در جلسه قبلی :  
+دستورات ترمینال این جلسه :  
 <div dir="ltr" markdown="1">
 
 - ps
@@ -388,7 +388,13 @@ drwxrwxrw-.  13 root root 4096 Nov 12 01:06 tmp
 
 ```linux
 --- chown [owner]:[group] <file> ---
->
+-rw-r--r-- 12 amir users 12.0K Apr  8 20:51 text.txt
+|[-][-][-]-   [------] [---]
+                |       |
+                |       +-----------> Group
+                +-------------------> Owner
+> chown amir text.txt
+> chown amir:users text.txt
 ```
 
 ## chgrp: 
@@ -398,7 +404,7 @@ drwxrwxrw-.  13 root root 4096 Nov 12 01:06 tmp
 
 ```linux
 --- chgrp <group> <file> ---
->
+> chgrp root text.txt
 ```
 
 ## selinux: 

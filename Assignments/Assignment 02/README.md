@@ -1,7 +1,7 @@
 # Commands
 
 <div dir="rtl" markdown="1">
-دستورات درون ترمینال در جلسه قبلی :  
+دستورات ترمینال این جلسه :  
 <div dir="ltr" markdown="1">
 
 - more
