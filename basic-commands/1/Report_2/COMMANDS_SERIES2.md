@@ -1,24 +1,24 @@
 # Commands  : Series 2
 
 <div dir="rtl" markdown="1">
-خلاصه دستور های جلسه سوم :
+گزارش کار سری اول :‌
 <div dir="ltr" markdown="1">
 
-* **cat**
+* **[cat](#cat)**
 
-* **more**
+* **[more](#more)**
 
-* **less**
+* **[less](#less)**
 
-* **grep**
+* **[grep](#grep)**
 
-* **su**
+* **[su](#su)**
 
-* **passwd**
+* **[passwd](#passwd)**
 
-* **redirect or (>>, >)**
+* **[redirect](#redirect)**
 
-* **pipline or ( | )**
+* **[pipline](#pipline)**
 
 <div dir="rtl" markdown="1">
   توضیح دستورات به همره مثال :
@@ -233,7 +233,7 @@ Each line in the /etc/shadow file corresponds to a user account. Each entry is d
   * Field 9:
     * is reserved for future use
 
-## redirect or (>>, >)
+## redirect
 
   * ">" : replace new value with previous one
   * ">>" : append new value to previous one
@@ -249,7 +249,7 @@ Removed pre lines.
 Removed pre lines.
   ```
 
-## pipline or ( | )
+## pipline
 
 The Pipe is a command in Linux that lets you use two or more commands such that output of one command serves as input to the next. In short, the output of each process directly as input to the next one like a pipeline. The symbol '|' denotes a pipe.
 
