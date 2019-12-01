@@ -5,8 +5,8 @@
 <div dir="ltr" markdown="1">
 
 * **[ps](#ps) :**
-  * [ax](#ps ax)
-  * [axu](#ps axu)
+  * [ax](#psax)
+  * [axu](#psaxu)
 
 * **[pstree](#pstree)**
 
@@ -42,7 +42,7 @@
  3790 pts/1    00:00:00 ps
 ```
 
-### ps ax
+### psax
 
 <div dir="rtl" markdown="1">
 نمایش خروجی به صورت BSD
@@ -65,7 +65,7 @@
  ...
 ```
 
-### ps axu
+### psaxu
 
 <div dir="rtl" markdown="1">
 علاوه بر مشخصات سوییچ قبلی میزان استفاده هر پروسه از منابع رو در لحظه اجرای دستور به همراه یوزر آن پروسه نشان میدهد.
