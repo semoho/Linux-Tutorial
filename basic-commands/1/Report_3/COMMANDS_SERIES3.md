@@ -5,8 +5,8 @@
 <div dir="ltr" markdown="1">
 
 * **[ps](#ps) :**
-  * [ax](#ax)
-  * [axu](#axu)
+  * [ax](#ps ax)
+  * [axu](#ps axu)
 
 * **[pstree](#pstree)**
 
