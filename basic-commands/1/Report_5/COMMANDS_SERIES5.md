@@ -191,7 +191,7 @@ The GNU Compiler Collection includes front ends for `C`, `C++`, `Objective-C`, `
 GCC was originally written as the compiler for the `GNU operating system`. The GNU system was developed to be 100% free software, free in the sense that it respects the user's freedom.
 
 <div dir="rtl" markdown="1">
-برای کامپایل برنامه هایی که با C++ نوشته شده اند با استفاده از GCC به صورت زیر عمل میکنیم  : 
+برای کامپایل برنامه هایی که با C نوشته شده اند با استفاده از GCC به صورت زیر عمل میکنیم  : 
 <div dir="rtl" markdown="1">
 
 
