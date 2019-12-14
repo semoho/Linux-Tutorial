@@ -25,7 +25,7 @@
 <div dir="ltr" markdown="1">
 
 ```bash
-#!/bin/bash
+# !/bin/bash
 echo "Hello World"
 ```
 
@@ -44,11 +44,10 @@ echo "Hello World"
 <div dir="ltr" markdown="1">
 
 ```bash
-#!/bin/bash
+# !/bin/bash
 name="John"
 age=18
 echo $name
-echo $age
 echo $age
 echo "${name} is ${age} years old"
 ```
@@ -62,7 +61,7 @@ echo "${name} is ${age} years old"
 <div dir="ltr" markdown="1">
 
 ```bash
-#!/bin/bash
+# !/bin/bash
 echo -n "Proceed? [y/n]: "
 read ans
 echo $ans
@@ -71,6 +70,109 @@ echo $ans
 >./input.sh   
 >y
 
+## IF
+
+<div dir="rtl" markdown="1">
+نحوه نوشتاری دستور شرطی
+<div dir="ltr" markdown="1">
+
+```bash
+#!/bin/bash
+
+echo "input first number"
+read a
+echo "input second number"
+read b
+
+if [[ $a < $b ]]; then
+	echo "$a is smaller than $b"
+elif [[ $a > $b ]]; then
+	echo "$b is smaller than $a"
+fi
+```
+
+>./smaller.sh   
+>5  
+>4
+
+
+## For
+
+<div dir="rtl" markdown="1">
+نحوه نوشتاری دستور حلقه for
+<div dir="ltr" markdown="1">
+
+```bash
+#!/bin/bash
+
+for (( i = 0; i < 10; i++ )); do
+	echo "Welcome $((i+1)) times."
+done
+```
+
+>./welcomer.sh 
+
+## While
+
+<div dir="rtl" markdown="1">
+نحوه نوشتاری دستور حلقه while
+<div dir="ltr" markdown="1">
+
+```bash
+#!/bin/bash
+
+echo "input first number"
+read a
+
+counter=-1
+while [[  $counter -lt $a ]]; do
+	let counter=counter+1
+	echo "The counter is $counter"
+done
+```
+
+>./counter.sh   
+>5  
+
+
+## Case
+
+<div dir="rtl" markdown="1">
+نحوه نوشتاری دستور شرطی switch case
+<div dir="ltr" markdown="1">
+
+```bash
+#!/bin/bash
+
+echo "Enter color name"
+read color
+
+case $color in
+	black | white ) echo "Pure Colors"
+		;;
+	"red" ) echo "I like this one"
+	;;
+	* ) echo "I think $color is also nice"
+esac
+```
+
+>./color.sh  
+>red
+
+## Conditions
+
+<div dir="rtl" markdown="1">
+بعضی از شرط ها
+<div dir="ltr" markdown="1">
+
+```bash
+[[ NUM -lt NUM ]]	#Less than
+[[ NUM -eq NUM ]]	#Equal
+[[ ! EXPR ]]	#Not
+(( NUM < NUM ))	#Numeric conditions
+```
+
+
 ## Arguments
 
 <div dir="rtl" markdown="1">
@@ -78,7 +180,7 @@ echo $ans
 <div dir="ltr" markdown="1">
 
 ```bash
-#!/bin/bash
+# !/bin/bash
 echo "This is First Argument: ${1}"
 echo "This is Second Argument: ${2}"
 echo "We Have $# Arguments"
@@ -93,7 +195,7 @@ echo "We Have $# Arguments"
 <div dir="ltr" markdown="1">
 
 ```bash
-#!/bin/bash
+# !/bin/bash
 printf "These files are in this folder:\n"
 echo "`ls`"
 ```
@@ -103,7 +205,7 @@ echo "`ls`"
 ## Simple Calculator
 
 ```bash
-# !/bin/bash 
+#!/bin/bash
   
 echo "Enter Two numbers: "
 read a 
@@ -117,8 +219,40 @@ case $ch in
   ;; 
   -)res=`echo $a - $b | bc` 
   ;; 
-  *)res=`echo $a \* $b | bc` 
+  \*)res=`echo $a \* $b | bc` 
+  ;;
+  /)res=`echo "scale=5;$a / $b" | bc`
+  ;; 
+  ^)res=`echo $a ^ $b | bc`
+  ;;
+  %)res=`echo $a % $b | bc`
   ;; 
 esac
 echo "Result: $res"
+```
+
+## Debug
+
+<div dir="rtl" markdown="1">
+اگر در حین اجرای برنامه به مشکلی خوردیم یا برنامه درست کار نمیکرد، بهترین کار Debug کردن آن است که به روش زیر انجام میشود.
+<div dir="ltr" markdown="1">
+
+```bash
+> sh -x ./bash.sh 
++ echo 'Enter Two numbers: '
+Enter Two numbers: 
++ read a
+5
++ read b
+10
++ echo 'Enter Operation: '
+Enter Operation: 
++ read ch
+*
++ case $ch in
+++ echo 5 '*' 10
+++ bc
++ res=50
++ echo 'Result: 50'
+Result: 50
 ```
