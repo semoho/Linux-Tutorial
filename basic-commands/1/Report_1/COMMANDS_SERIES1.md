@@ -1,34 +1,34 @@
 # Commands
 
 <div dir="rtl" markdown="1">
-خلاصه دستور  جلسه دوم :
+گزارش کار سری دوم: 
 <div dir="ltr" markdown="1">
 
-* **ls:**
-  * -l
-  * -a
-  * -h
-* **stat**
+* **[ls](#ls) :**
+  * [-l](#-l)
+  * [-a](#-a)
+  * [-h](#-h)
+* **[stat](#stat)**
 
-* ****info****
+* **[info](#info)**
 
-* ****pwd****
+* **[pwd](#pwd)**
 
-* ****whoami****
+* **[whoami](#whoami)**
 
-* ****cd****
+* **[cd](#cd)**
 
-* ****touch****
+* **[touch](#touch)**
 
-* **mkdir**
+* **[mkdir](#mkdir)**
 
-* **rmdir**
+* **[rmdir](#rmdir)**
 
-* **rm:**
-  * -r
-  * -f
-* **cp:**
-  * -r
+* **[rm](#rm):**
+  * [-r](#-r)
+  * [-f](#-f)
+* **[cp](#cp):**
+  * [-r](#-r)
 
 
 <div dir="rtl" markdown="1">
