@@ -40,7 +40,7 @@ Files/f1.txt
 ```
 
 ```linux
-(Z: compress) -> extract tar file
+(Z: compress) -> compress file
 >tar -czf moreCompress.tar Files/
 -rw-r--r--  1 amir amir 20480 Nov 25 15:23 compress.tar
 -rw-r--r--  1 amir amir   305 Nov 25 15:23 moreCompress.tar

@@ -58,8 +58,7 @@
 
 ```linux
 --- yum ---
->
-
+>yum install firefox
 ```
 
 ## openssh: 
