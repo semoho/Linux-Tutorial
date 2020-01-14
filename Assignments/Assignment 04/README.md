@@ -37,7 +37,8 @@
 
 
 <div dir="rtl" markdown="1">
-12- حال کار تنظیمات تمام شده است و میتوانیم بر روی Begin Installation بزنیم.   
+12- حال کار تنظیمات تمام شده است و میتوانیم بر روی Begin Installation بزنیم.     
+
 13- در مرحله نصب باید رمز کاربر Root را به دلخواه وارد کنید.   
 <div dir="ltr" markdown="1">
 
@@ -58,8 +59,7 @@
 
 ```linux
 --- yum ---
->
-
+>yum install firefox
 ```
 
 ## openssh: 
